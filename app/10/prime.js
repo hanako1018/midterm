@@ -13,7 +13,11 @@ if(Number.isInteger(a)== false){
 return false;
 }
 
+if(Number.isInteger(a)== true){
 
-
+for(var i = 2; i<a-1; i++){
+  return true
+}
+}
 
 };
