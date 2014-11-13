@@ -1,12 +1,19 @@
 
-
 var prime = function(a){
 
 
+
+if(Number.isInteger(a)== true){
+
+return false;
+
+}
 if(Number.isInteger(a)== false){
 
-return  a*(a-1);
+return false;
+}
 
-false;
-};
+
+
+
 };
