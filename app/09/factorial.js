@@ -1,11 +1,21 @@
 
 var factorial = function(a){
 
+if(a <= 0 ){
+  return null;
+  
+}
 
-if(a <= 0){
+if(isFinite(a) && a > 0 && !Number.isInteger(a)){
+  a = Math.floor(a);
 
-return null;
+}
 
-};
+if(Number.isInteger(a)){
+  for(var i = a-1; i > 0 ; i ++){
+    a = a * i
+}
+return a;
 
-};
+}
+}
