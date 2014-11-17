@@ -3,7 +3,7 @@ var factorial = function(a){
 
 if(a <= 0 ){
   return null;
-  
+
 }
 
 if(isFinite(a) && a > 0 && !Number.isInteger(a)){
